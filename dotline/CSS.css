@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.scroll-content {
+    flex: 1;
+    overflow-y: scroll;
+    height: 1920px;
+    width: 1080px
+}
+.fixed-window {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
