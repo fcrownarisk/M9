@@ -63,7 +63,7 @@ void function tennetMatrix(){
     [`P`][`O`][`N`][`matrix3`][`M`] [`m`][`matrix6`][`n`][`o`][`p`]
     [`T`][`S`][`R`][`Q`][`matrix4`] [`matrix5`][`q`][`r`][`s`][`t`]
 
-    [`w1`][`v`][`u`][`t5`] [`matrix5`]   [`matrix5`][`t10`][`u`][`v`][`w2`]
+    [`w1`][`v`][`u`][`t5`] [`matrix4`]   [`matrix5`][`t10`][`u`][`v`][`w2`]
     [`t4`][`t3`][`t2`][`matrix3`][`t1`] ['t6']['matrix6']['t7']['t8']['t9']
     [`T3`]['Z3']['matrix2'][`Y3`][`X3`] [`X6`][`Y6`]['matrix7'][`Z6`][`T6`]
     [`T2`][`matrix1`][`Z2`][`Y2`][`X2`] [`X5`][`Y5`][`Z5`]['matrix8'][`T5`]
