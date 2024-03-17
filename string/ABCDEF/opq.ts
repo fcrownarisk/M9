@@ -8,7 +8,7 @@ void function t5() {
     const p = String;
     const q = String;
     const o2 = String;
-    const result17 = Math.asinh(ww - o1);
+    const result17 = Math.asin(ww - o1);
     const result18 = Math.acos(ww - p);
     const result19 = Math.asin(ww - q);
     const result20 = Math.acos(ww - o2);
