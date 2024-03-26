@@ -20,7 +20,7 @@ constructor(energy: number, lifetime: number) {
         this.stability = false;
         this.lifetime = lifetime;
     }
-relaxtoeigenState(): eigenState {
+toeigenState(): eigenState {
         console.log(`The activated state with energy ${this.energy} relaxes to the eigen state.`);
         return new eigenState(0);
     }
@@ -29,5 +29,5 @@ export const EigenState = new eigenState(0);
 console.log(EigenState)
 export var activatedState = new ActivatedState(1.5, 10);
 console.log(activatedState)
- const relaxedState = activatedState.relaxtoeigenState();
+ const relaxedState = activatedState.toeigenState();
 console.log(relaxedState)
